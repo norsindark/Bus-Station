@@ -15,7 +15,7 @@ import org.springframework.stereotype.Service;
 import com.busstation.entities.Account;
 import com.busstation.entities.Role;
 import com.busstation.entities.User;
-import com.busstation.exception.DataExistException;
+import com.busstation.exceptions.DataExistException;
 import com.busstation.repositories.AccountRepository;
 import com.busstation.repositories.RoleRepository;
 import com.busstation.repositories.UserRepository;

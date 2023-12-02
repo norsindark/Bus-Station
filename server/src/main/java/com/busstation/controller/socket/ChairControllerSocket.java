@@ -38,7 +38,8 @@ public class ChairControllerSocket {
 
     @MessageMapping("/chair")
     @SendTo("/topic/chair")
-    public OrderResponse handleChairUpdate(@Payload OrderRequest orderRequest, StompHeaderAccessor headers) throws Exception {
+    public OrderResponse handleChairUpdate(
+            @Payload OrderRequest orderRequest, StompHeaderAccessor headers) throws Exception {
         String bearerToken = headers.getFirstNativeHeader("Authorization");
         String jwtToken = bearerToken.substring(7);
 

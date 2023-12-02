@@ -3,7 +3,7 @@ package com.busstation.services.impl;
 import com.busstation.entities.Account;
 import com.busstation.entities.Leave;
 import com.busstation.entities.User;
-import com.busstation.exception.DataNotFoundException;
+import com.busstation.exceptions.DataNotFoundException;
 import com.busstation.payload.request.ApproveLeaveRequest;
 import com.busstation.payload.request.LeaveRequest;
 import com.busstation.payload.response.LeaveResponse;
