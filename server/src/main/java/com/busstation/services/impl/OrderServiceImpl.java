@@ -1,7 +1,7 @@
 package com.busstation.services.impl;
 
 import com.busstation.entities.*;
-import com.busstation.exception.DataNotFoundException;
+import com.busstation.exceptions.DataNotFoundException;
 import com.busstation.payload.request.OrderRequest;
 import com.busstation.payload.response.*;
 import com.busstation.repositories.*;

@@ -3,7 +3,7 @@ package com.busstation.services.impl;
 import com.busstation.dto.AccountDto;
 import com.busstation.entities.Account;
 import com.busstation.entities.Role;
-import com.busstation.exception.DataNotFoundException;
+import com.busstation.exceptions.DataNotFoundException;
 import com.busstation.payload.request.ChangePasswordRequest;
 import com.busstation.payload.request.RoleRequest;
 import com.busstation.payload.response.ApiResponse;

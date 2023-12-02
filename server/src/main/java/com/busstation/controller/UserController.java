@@ -1,6 +1,6 @@
 package com.busstation.controller;
 
-import com.busstation.exception.DataExistException;
+import com.busstation.exceptions.DataExistException;
 import com.busstation.payload.request.UserRequest;
 import com.busstation.payload.response.ApiResponse;
 import com.busstation.services.CsvFileService;

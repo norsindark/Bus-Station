@@ -5,8 +5,7 @@ import com.busstation.entities.Chair;
 import com.busstation.entities.Employee;
 import com.busstation.entities.Trip;
 import com.busstation.enums.RoleEnum;
-import com.busstation.exception.DataExistException;
-import com.busstation.exception.DataNotFoundException;
+import com.busstation.exceptions.DataExistException;
 import com.busstation.payload.request.CarRequest;
 import com.busstation.payload.request.ChairRequest;
 import com.busstation.payload.response.ApiResponse;
@@ -26,7 +25,6 @@ import org.springframework.data.domain.Sort;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.*;
 

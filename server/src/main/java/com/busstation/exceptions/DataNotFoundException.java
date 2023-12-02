@@ -1,4 +1,4 @@
-package com.busstation.exception;
+package com.busstation.exceptions;
 
 public class DataNotFoundException extends RuntimeException {
 

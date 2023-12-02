@@ -3,7 +3,7 @@ package com.busstation.services.impl;
 import com.busstation.common.Constant;
 import com.busstation.entities.Location;
 import com.busstation.entities.Province;
-import com.busstation.exception.DataNotFoundException;
+import com.busstation.exceptions.DataNotFoundException;
 import com.busstation.payload.request.ProvinceRequest;
 import com.busstation.payload.response.LocationResponse;
 import com.busstation.payload.response.ProvinceResponse;
